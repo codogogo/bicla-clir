@@ -1,0 +1,2 @@
+Training portions of Europarl datasets can be obtained from: 
+https://drive.google.com/open?id=1DQKreLN4K4cCzqsDhcpLZnyiNGL1vyYY

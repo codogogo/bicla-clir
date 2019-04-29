@@ -1,0 +1,2 @@
+The files with pre-trained mapped (multlingual) embeddings are to be obtained from: 
+https://drive.google.com/open?id=1xrKdcMZgy1JnHN0UgQpOfhUnzZFoO1xt
