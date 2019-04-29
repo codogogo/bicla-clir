@@ -29,25 +29,34 @@ If you're using BiCLA code or data in your work, please cite the above publicati
 
 The tool allows for using any of the pre-trained CLIR for a new set of "queries" and "documents" (both sentences). The script for predicting the scores is simply run with: 
 
-*python predictor.py *
+*python predictor.py*
 
 ### Configuration
 
 The following parameters used by the script *predictor.py* need to be defined in the file *config.py*:
 
 -QUERY_LANG: Language of the query sentences
+
 -DOCS_LANG: Language of the collection sentences
+
 -QUERY_LANG_EMBS: Path to the file containing serialized pretrained word embedding vectors of the query language (mapped in the shared multilingual embedding space)
+
 -QUERY_LANG_VOCAB: Path to the file containing pickled vocabulary (for the pretrained word embeddings) of the query language
+
 -DOC_LANG_EMBS: Path to the file containing serialized pretrained word embedding vectors of the collection language (mapped in the shared multilingual embedding space)
+
 -DOC_LANG_VOCAB: Path to the file containing pickled vocabulary (for the pretrained word embeddings) of the collection language
+
 -MODEL: The file containing the pre-trained neural CLIR model
 
 -PATH_QUERIES: Path to the file containing query sentences for prediction (one sentence per line)
+
 -PATH_DOCS: Path to the files containing collection sentences for prediction (one sentence per line)
+
 -PREDS_PATH: Path to which the store the prediction (one score produced for each sentence from PATH_QUERIES paired with each sentence from PATH_DOCS)
 
 -STOPWORDS_QL = Path to the file containing stopwords (one per line) of the query language 
+
 -STOPWORDS_DL = Path to the file containing stopwords (one per line) of the collection language 
 
 ### Pretrained models
